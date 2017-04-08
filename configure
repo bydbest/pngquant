@@ -96,7 +96,7 @@ fi
     --without-cocoa)
         COCOA_READER=0
         ;;
-    --with-libpng=*)
+    --with-libpng=/usr/local
         LIBPNG_DIR=${i#*=}
         ;;
     --prefix=*)
